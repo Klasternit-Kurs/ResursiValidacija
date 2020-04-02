@@ -1,0 +1,12 @@
+﻿<Window x:Class="ResursiValidacija.Izmena"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ResursiValidacija"
+        mc:Ignorable="d"
+        Title="Izmena" Height="450" Width="800">
+    <Grid>
+		<TextBox Style="{StaticResource StilZaTxtBox}" Text="{Binding Source={StaticResource MojaOsoba}, Path=Ime, UpdateSourceTrigger=PropertyChanged}"/>
+	</Grid>
+</Window>
